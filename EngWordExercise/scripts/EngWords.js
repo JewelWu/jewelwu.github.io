@@ -264,8 +264,8 @@ function checkAnswer() {
     }
 
     var strInput = document.getElementById("inputAnswer").value;
-    //var strAnswer2 = document.getElementById("AnswerText").innerHTML;
-    var strAnswer = $("#AnswerText").text();
+    var strAnswer = document.getElementById("AnswerText").innerHTML;
+    //var strAnswer = $("#AnswerText").text();
     var areEqual = strInput.toLowerCase() === strAnswer.toLowerCase();
     if (!areEqual) {
         alert("不是喔! 再試試");

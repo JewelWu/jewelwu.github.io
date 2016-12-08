@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MyWebSite", "D:\Programs\MyWebSite\", "{A9489726-1F44-4594-AB3D-EC0121C8C11B}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MyWebSite", "D:\GitHub\jewelwu.github.io\", "{A9489726-1F44-4594-AB3D-EC0121C8C11B}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_53599"
-		Debug.AspNetCompiler.PhysicalPath = "D:\Programs\MyWebSite\"
+		Debug.AspNetCompiler.PhysicalPath = "D:\GitHub\jewelwu.github.io\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53599\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_53599"
-		Release.AspNetCompiler.PhysicalPath = "D:\Programs\MyWebSite\"
+		Release.AspNetCompiler.PhysicalPath = "D:\GitHub\jewelwu.github.io\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53599\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "53599"
-		SlnRelativePath = "D:\Programs\MyWebSite\"
+		SlnRelativePath = "D:\GitHub\jewelwu.github.io\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
