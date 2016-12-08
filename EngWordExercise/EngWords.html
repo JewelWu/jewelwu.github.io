@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>English Words Exercises</title>
+    <link href="../css/default.css" rel="stylesheet" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../EngWordExercise/scripts/EngWords.js"></script>    
+</head>
+<body>
+    <script type="text/javascript">InitExercise();</script>
+    <form>
+    <table>
+        <tr><td align="center">
+            Count: <span id="answerCount" class="imageText">0</span> / <span id="totalCount" class="imageText" />
+        </td></tr>
+        <tr><td align="center">
+            <div class="displayImage"><img id="randomImage" /></div>
+        </td></tr>
+        <tr><td align="center">
+            <span id="imageText" class="imageText" />
+        </td></tr>
+        <tr>
+            <td align="center">
+                <span id="TopicText" class="topicText" />
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <span id="AnswerText" style="display:none;" />
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <input type="text" class="inputText" id="inputAnswer" autocomplete="off" />
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <button id="btnOK" type="button" onclick="return checkAnswer();">OK</button>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <button id="btnClearCookie" type="button" onclick="clearAllCookies();">Clear Cookie</button>
+            </td>
+        </tr>
+    </table>
+    </form>
+    <script type="text/javascript">
+
+        //function keyInput(event) {
+        //    event.preventDefault();
+        //    if (event.keyCode == 13) {
+        //        document.getElementById("btnOK").click();
+        //    }
+        //};
+
+        displayRandomImage();
+
+    </script>
+</body>
+</html>

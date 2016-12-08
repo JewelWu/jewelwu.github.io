@@ -1,0 +1,16 @@
+Ann_人名(安)
+boy_男孩
+fat_胖的
+fine_很好
+good_好行為
+great_很棒
+hat_帽子
+monther_母親
+net_網子
+okay_好的
+play_玩
+sad_難過
+sing_唱
+strong_強壯的
+Ted_人名(泰德)
+weak_虛弱的
