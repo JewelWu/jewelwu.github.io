@@ -1,0 +1,16 @@
+﻿behind_在後面
+black_黑色
+cap_鴨舌帽
+eleven_十一
+fifteen_十五
+fourteen_十四
+go home_回家
+go to bed_上床
+go to school_上學
+in front of_在前面
+pink_粉紅色
+thirteen_十三
+tree_樹
+twelve_十二
+white_白色
+yellow_黃色

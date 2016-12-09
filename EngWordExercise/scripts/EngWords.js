@@ -1,4 +1,4 @@
-﻿var dataFolder = "./data/"
+﻿var dataFolder = "./data"
 var listFile = "images.txt"
 var imageExt = ".jpg"
 var level = 1
@@ -6,6 +6,7 @@ var divisor = 3
 var strCookieList = [];
 var strCurrentTopic = "";
 var isClearCookie = 0;
+var dataID = 0
 
 /*
 function getCookie(c_name) {
@@ -195,7 +196,7 @@ function getRandomImage(imgObj) {
     var tempFiles = files.splice(i, 1);
     setCookie("srcTopicList", JSON.stringify(files), 7);
 
-    imgObj.varFile = dataFolder + image + imageExt;
+    imgObj.varFile = dataFolder + dataID + "/" + image + imageExt;
 
     var rate = level / divisor;
     if (level == 4) {
@@ -279,7 +280,7 @@ function checkAnswer() {
     num++;
     setCookie("ansCount", num, 1);
 
-    window.location.href = "EngWords.html?src=0&lv=" + level;
+    window.location.href = "EngWords.html?src=0&lv=" + level + "&d=" + dataID;
 
     return true;
 }
@@ -287,6 +288,7 @@ function checkAnswer() {
 function InitExercise() {
     isClearCookie = getUrlVars()["src"];
     level = getUrlVars()["lv"];
+    dataID = getUrlVars()["d"];
 
     if (isClearCookie == 1) {
         clearAllCookies();
@@ -294,7 +296,7 @@ function InitExercise() {
 
         var listFiles;
         var files;
-        listFiles = readTextFile(dataFolder + listFile);
+        listFiles = readTextFile(dataFolder + dataID + "/" + listFile);
         files = listFiles.split("\r\n");
         setCookie("totalTopicCount", files.length, 7);
         setCookie("srcTopicList", JSON.stringify(files), 7);

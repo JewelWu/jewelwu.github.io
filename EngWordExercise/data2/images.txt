@@ -1,0 +1,25 @@
+﻿ant_螞蟻
+duck_鴨子
+eleven_十一
+fish_魚
+fourteen_十四
+fox_狐狸
+hen_母雞
+ink_墨水
+insect_瓢蟲
+jam_果醬
+kite_風箏
+map_地圖
+ox_公牛
+pencil case_鉛筆盒
+pen_原子筆
+pink_粉紅色
+robot_機器人
+ruler_尺
+sun_太陽
+thirteen_十三
+up_向上
+vest_背心
+white_白色
+yam_蕃薯
+zoo_動物園
